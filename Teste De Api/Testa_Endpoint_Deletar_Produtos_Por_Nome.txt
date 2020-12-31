@@ -1,0 +1,4 @@
+Explicação do Teste:
+
+A Api possui um grave erro: O Endpoint para deletar (https://quartz-drain.glitch.me/products/name/Fogao) um produto pelo nome está deletando qualquer produto independente
+do nome do produto. O teste está documentado no documento Testa_Endpoint_Deletar_Produtos_Por_Nome.mht

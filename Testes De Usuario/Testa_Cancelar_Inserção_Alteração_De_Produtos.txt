@@ -1,0 +1,6 @@
+Explicação do Teste:
+
+A aplicação está com erro ao tentar cancelar a inserção ou alteração do produto, nesse caso o comportamento esperado pelo cliente seria que a aplicação
+limpasse os campos para que o mesmo possa inseri-los novamente ou então um comportamento melhor seria redirecionalo para a página de produtos cadastrados, pois
+como a tela de inserção é a mesma tela de alteração o usuário seria obrigado a inserir ou a editar o produto novamente. 
+O teste está documentado no documentoTesta_Botão_Cancelar_Inserção_Alteração_Do_Produto.mht

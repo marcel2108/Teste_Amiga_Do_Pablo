@@ -1,0 +1,4 @@
+Explicação do Teste:
+
+A aplicação tem um erro o botão Editar e Cancelar não funciona quando o nome do produto tem espaço. Os passos estão
+documentados no documento Testa_Botão_Editar_Deletar_Não_Funciona.mht

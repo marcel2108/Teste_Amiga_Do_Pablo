@@ -1,0 +1,4 @@
+Explicação do Teste:
+
+O software não permite a edição do campo Name do produto depois de inseri-lo na base de dados. O teste está documentado no documento
+Testa_Editar_Nome_Do_Produto.mht

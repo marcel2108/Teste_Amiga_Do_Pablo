@@ -1,0 +1,133 @@
+{
+	"info": {
+		"_postman_id": "c7abefe0-dd87-488a-9a88-ab9abe9bc31f",
+		"name": "Teste API Amiga Do Pablo",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Lista produtos cadastrados",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://quartz-drain.glitch.me/products",
+					"protocol": "https",
+					"host": [
+						"quartz-drain",
+						"glitch",
+						"me"
+					],
+					"path": [
+						"products"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Cadastra novos produtos",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\": \"Fogao\", \r\n    \"value\": \"1500\", \r\n    \"quantity\": \"25\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://quartz-drain.glitch.me/products",
+					"protocol": "https",
+					"host": [
+						"quartz-drain",
+						"glitch",
+						"me"
+					],
+					"path": [
+						"products"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Edita produtos cadastrados",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\": \"Notebook\", \r\n    \"value\": \"4000\", \r\n    \"quantity\": \"10\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://quartz-drain.glitch.me/products/name/Notebook",
+					"protocol": "https",
+					"host": [
+						"quartz-drain",
+						"glitch",
+						"me"
+					],
+					"path": [
+						"products",
+						"name",
+						"Notebook"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Deleta produtos cadastrados",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://quartz-drain.glitch.me/products/name/Fogao",
+					"protocol": "https",
+					"host": [
+						"quartz-drain",
+						"glitch",
+						"me"
+					],
+					"path": [
+						"products",
+						"name",
+						"Fogao"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
